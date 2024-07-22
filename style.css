@@ -1,0 +1,183 @@
+/* body {
+  background-image: url(./images/pexels-moose-photos-1037994.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/pexels-moose-photos-1037994.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+img {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(177, 10, 113);
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+#foo{
+    position: absolute;
+    display: center;
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 10px 30px;
+    background-color: rgb(252, 138, 157);
+    border: none;
+    border-radius: 30px;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    /* display: inline-block; */
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    /* margin: 0; */
+    outline: none;
+    /* padding: 10px 16px; */
+    /* position: relative; */
+    /* text-align: center; */
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#foo:hover,
+#foo:focus {
+  background-color: #F082AC;
+}
+
+
+
+.center-btn{
+    /* background-color: rgb(252, 138, 157);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px; */
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.center-btn:hover,
+.center-btn:focus {
+  background-color: #F082AC;
+}
+
+
+.button--no{
+    left: 50%;
+}
+
+.button--yes {
+    right: 50%;
+}
+
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  /* display: inline-block; */
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+
+/* CSS for default styles */
+
+@media only screen and (max-width: 600px) {
+    /* CSS for devices with a maximum width of 600 pixels */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* CSS for devices with a width between 601 and 1024 pixels */
+}
+
+@media only screen and (min-width: 1025px) {
+    /* CSS for devices with a width greater than 1024 pixels */
+}
